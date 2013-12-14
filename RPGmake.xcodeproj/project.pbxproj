@@ -10,6 +10,7 @@
 		3E5FA3831855429C00BF0D05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5FA3821855429C00BF0D05 /* Foundation.framework */; };
 		3E5FA3861855429C00BF0D05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FA3851855429C00BF0D05 /* main.m */; };
 		3E5FA38A1855429C00BF0D05 /* RPGmake.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3E5FA3891855429C00BF0D05 /* RPGmake.1 */; };
+		3E5FA39F185576CA00BF0D05 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FA39E185576CA00BF0D05 /* Character.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		3E5FA3851855429C00BF0D05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E5FA3881855429C00BF0D05 /* RPGmake-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RPGmake-Prefix.pch"; sourceTree = "<group>"; };
 		3E5FA3891855429C00BF0D05 /* RPGmake.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RPGmake.1; sourceTree = "<group>"; };
+		3E5FA39D185576CA00BF0D05 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		3E5FA39E185576CA00BF0D05 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,7 @@
 				3E5FA3841855429C00BF0D05 /* RPGmake */,
 				3E5FA3811855429C00BF0D05 /* Frameworks */,
 				3E5FA3801855429C00BF0D05 /* Products */,
+				3E5FA393185543FA00BF0D05 /* Model */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +90,16 @@
 				3E5FA3881855429C00BF0D05 /* RPGmake-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E5FA393185543FA00BF0D05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E5FA39D185576CA00BF0D05 /* Character.h */,
+				3E5FA39E185576CA00BF0D05 /* Character.m */,
+			);
+			name = Model;
+			path = RPGmake;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E5FA3861855429C00BF0D05 /* main.m in Sources */,
+				3E5FA39F185576CA00BF0D05 /* Character.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +266,7 @@
 				3E5FA38F1855429C00BF0D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
